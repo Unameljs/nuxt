@@ -47,7 +47,7 @@
   </template>
   
   <script setup>
-  import simpleImage from "../assets/资料库.png";
+  import simpleImage from "~/assets/资料库.png";
   import ancient from './ancientPoetry.vue'
   import confucian from './confucian.vue'
   import data from '../data'
