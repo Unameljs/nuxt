@@ -83,6 +83,7 @@
       screenSizeShow.value = false
     }
   })
+  document.title = '古诗词名家言'
   })
   
   //pc

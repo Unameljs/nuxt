@@ -18608,7 +18608,7 @@ const _sfc_main$3 = {
               _push2(ssrRenderComponent(_component_a_layout_sider, null, {
                 default: withCtx((_2, _push3, _parent3, _scopeId2) => {
                   if (_push3) {
-                    _push3(`<div class="logo" data-v-883654fa${_scopeId2}></div>`);
+                    _push3(`<div class="logo" data-v-e1bdffca${_scopeId2}></div>`);
                     _push3(ssrRenderComponent(_component_a_menu, {
                       onSelect,
                       onOpenChange: openChange,
@@ -18641,7 +18641,7 @@ const _sfc_main$3 = {
                                     _push5(ssrRenderComponent(_component_a_menu_item, { key: index2 }, {
                                       default: withCtx((_5, _push6, _parent6, _scopeId5) => {
                                         if (_push6) {
-                                          _push6(`<span class="nav-text" data-v-883654fa${_scopeId5}>${ssrInterpolate(p)}</span>`);
+                                          _push6(`<span class="nav-text" data-v-e1bdffca${_scopeId5}>${ssrInterpolate(p)}</span>`);
                                         } else {
                                           return [
                                             createVNode("span", { class: "nav-text" }, toDisplayString(p), 1)
@@ -18741,7 +18741,7 @@ const _sfc_main$3 = {
                     _push3(ssrRenderComponent(_component_a_layout_content, { style: { margin: "24px 16px 0", overflow: "initial" } }, {
                       default: withCtx((_3, _push4, _parent4, _scopeId3) => {
                         if (_push4) {
-                          _push4(`<div style="${ssrRenderStyle({ padding: "24px", background: "#fff", textAlign: "center" })}" data-v-883654fa${_scopeId3}>`);
+                          _push4(`<div style="${ssrRenderStyle({ padding: "24px", background: "#fff", textAlign: "center" })}" data-v-e1bdffca${_scopeId3}>`);
                           if (unref(emptyShow)) {
                             _push4(ssrRenderComponent(_component_a_empty, {
                               image: unref(simpleImage),
@@ -19029,10 +19029,9 @@ _sfc_main$3.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/home.vue");
   return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
-const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-883654fa"]]);
-document.title = "古诗词名家言";
+const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-e1bdffca"]]);
 const _sfc_main$2 = {};
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_Home = __nuxt_component_0;
   _push(`<div${ssrRenderAttrs(_attrs)}>`);
   _push(ssrRenderComponent(_component_Home, null, null, _parent));

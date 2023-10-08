@@ -1,10 +1,10 @@
 const client_manifest = {
-  "_vue.f36acd1f.256a992d.js": {
+  "_vue.f36acd1f.eb046937.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.256a992d.js",
+    "file": "vue.f36acd1f.eb046937.js",
     "imports": [
       "node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app/entry.js"
     ]
@@ -29,10 +29,10 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-404.37e40140.js",
+    "file": "error-404.f8776000.js",
     "imports": [
       "node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app/entry.js",
-      "_vue.f36acd1f.256a992d.js"
+      "_vue.f36acd1f.eb046937.js"
     ],
     "isDynamicEntry": true,
     "src": "node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"
@@ -56,9 +56,9 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-500.769103d4.js",
+    "file": "error-500.1970f391.js",
     "imports": [
-      "_vue.f36acd1f.256a992d.js",
+      "_vue.f36acd1f.eb046937.js",
       "node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -74,7 +74,7 @@ const client_manifest = {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "entry.3061fb2e.css",
+    "file": "entry.39a8e175.css",
     "src": "node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app/entry.css"
   },
   "node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app/entry.js": {
@@ -86,19 +86,19 @@ const client_manifest = {
       "资料库.ae98f4d0.png"
     ],
     "css": [
-      "entry.3061fb2e.css"
+      "entry.39a8e175.css"
     ],
     "dynamicImports": [
       "node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/.pnpm/@nuxt+ui-templates@1.3.1/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.994f3463.js",
+    "file": "entry.222aba8c.js",
     "isEntry": true,
     "src": "node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
   },
-  "entry.3061fb2e.css": {
-    "file": "entry.3061fb2e.css",
+  "entry.39a8e175.css": {
+    "file": "entry.39a8e175.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
