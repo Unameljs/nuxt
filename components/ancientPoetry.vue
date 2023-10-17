@@ -6,7 +6,7 @@
         :header="data.name"
         :style="customStyle"
       >
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ data.content }} <SoundFilled @click="sayText()" style="color:rgb(67, 204, 238)" /></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ data.content }} <SoundFilled @click="sayText(data.content)" style="color:rgb(67, 204, 238)" /></p>
       </a-collapse-panel>
     </a-collapse>
   </template>
@@ -29,8 +29,9 @@
     data: data.map(item=>item.data)[props.menuKey].map(item=>item.article)
   });
   
-  const sayText = ()=>{
-    message.warning('朗诵要钱啊，哥！')
+  const sayText = (text)=>{
+    const say = new SpeechSynthesisUtterance(text)
+    window.speechSynthesis.speak(say)
   }
   
   </script>
